@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+    margin:0;
+    background-color: ☐ #616091;
+    display:block;
+    width: 500px;
+    height: 500px;
+    padding:50px;
+    border: 6px solid #616091;
+    text-align:centre;
+    box-shadow:1px 1px 1px rgba(1,1,2,0.2)
+
+    }
+    h1{
+    color: #8b0463;
+    text-align: centre;
+    }
+    div{
+        margin:16px;
+        padding:10px;
+        background-color:#d8619c;
+        box-shadow:#616091
+    }
+    #container{
+        margin: 24px;
+        padding: 24px;
+        color:rgb(5, 155, 155);
+        background-color:black;
+        text-align:centre;
+    }
+    #input{
+        color:azure;
+        background-color:black;
+        border:none;
+        border-bottom:1px solid #52063b;
+        border-left: 1px solid #7a0575;
+
+    }
+    input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+label {
+	display: inline-block;
+	width: 90%;
+}
+
+input[type="checkbox"]:checked + label{
+	text-decoration: line-through;
+}
+
+    
+</style>
+<body>
+<div>
+    
+    <h1 style="text-align: center;"><b>To Do List</b></h1>
+    </div>
+    <div style="text-align: center;" id="container">
+    
+    <label for="in1">
+    <input type="text" id="in1" placeholder="Enter your text">
+    <button id="in1">AddToDo</button>&nbsp;
+    <input type="checkbox" id="in1">
+    <button id="in1">remove</button><br><br></label>
+    <label for="in2">
+    <input type="text" id="in2" placeholder="Enter your text">
+    <button id="btn">AddToDo</button>&nbsp;
+    <input type="checkbox" id="in2">
+    <button id="btn">remove</button><br><br></label>
+    <label for="in3">
+    <input type="text" id="in3" placeholder="Enter your text">
+    <button id="btn">AddToDo</button>&nbsp;
+    <input type="checkbox" id="in3">
+    <button id="btn">remove</button><br><br></label>
+    <label for="in4">
+    <input type="text" id="in4" placeholder="Enter your text">
+    <button id="btn">AddToDo</button>&nbsp;
+    <input type="checkbox" id="in4">
+    <button id="btn">remove</button><br><br></label>
+    <label for="in5">
+    <input type="text" id="in5" placeholder="Enter your text">
+    <button id="btn">AddToDo</button>&nbsp;
+    <input type="checkbox" id="in5">
+    <button id="btn">remove</button><br><br></label>
+    <label for="in6">
+    <input type="text" id="in6" placeholder="Enter your text">
+    <button id="btn">AddToDo</button>&nbsp;
+    <input type="checkbox" id="in6">
+    <button id="btn">remove</button><br><br></label>
+    <label for="in7">
+    <input type="text" id="in7" placeholder="Enter your text">
+    <button id="btn">AddToDo</button>&nbsp;
+    <input type="checkbox" id="in7">
+    <button id="btn">remove</button><br><br></label>
+    
+    <ul class="ul" style="list-style-type: none;">
+    </ul>
+    
+    </div>
+   
+</body>
+
+  </html>
